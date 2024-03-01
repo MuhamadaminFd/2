@@ -1,0 +1,55 @@
+.video {
+    width: 100%;
+    max-width: 360px;
+    height: calc(100vw * 16 / 9);
+    max-height: 640px;
+    margin: 0 auto;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.like,
+.comment,
+.message,
+.save,
+.more,
+.newp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 450px;
+    margin-top: 400px;
+
+    
+}
+
+.like{
+    top: -45px;
+}
+
+.comment {
+    top: -5px;
+}
+
+
+.message {
+    top: 40px;
+}
+
+.save {
+    top: 90px;
+}
+
+.more {
+    top: 150px;
+}
+
+.newp {
+    top: 195px;
+}
